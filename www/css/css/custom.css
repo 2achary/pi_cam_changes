@@ -1,0 +1,75 @@
+body{background-color: black;}
+.shutter_button {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: 3px solid black;
+    align-self: center;
+}
+.shutter_button:active {
+    background-color: gray;
+}
+.outer_shutter{
+    border-radius: 100%;
+    border: 5px solid white;
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+}
+.settings_div{
+    max-width: 600px;
+}
+.btn-default, .btn-info, .btn-primary, .btn-danger, .panel-heading, .panel-default, .panel{
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+#toggle_display{
+    margin-top: 10px;
+    float: right;
+}
+.navbar-header{
+    width: 100%;
+}
+.row{text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.liveimage, {
+margin: 0 !important;
+padding: 0 !important;
+width: 100% !important;
+text-align: center;
+}
+.liveimage > img {
+    width: 100%;
+    margin: 0 auto;
+}
+.settings_icon{
+    margin-top: 30px;
+    width: 40px !important;}
+@media screen and (min-width: 768px){
+    .liveimage, img {
+        width: 80% !important;
+        margin: 0 auto;
+
+    }
+}
+.mode_selector{
+    color: white;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#video_button{
+    background-color:#cc0000 ;}
+.recording{
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+body{padding:0;}
