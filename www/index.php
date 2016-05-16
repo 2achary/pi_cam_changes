@@ -182,7 +182,7 @@
       <title><?php echo CAM_STRING; ?></title>
       <link rel="stylesheet" href="css/style_minified.css" />
       <link rel="stylesheet" href="<?php echo getStyle(); ?>" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
       <link rel="stylesheet" href="css/custom.css" />
       <script src="js/style_minified.js"></script>
       <script src="js/script.js"></script>
@@ -190,9 +190,9 @@
    </head>
    <body onload="setTimeout('init(<?php echo "$mjpegmode, $video_fps, $divider" ?>);', 100);">
       </div>
-      <div class="text-center liveimage">
-         <img id="mjpeg_dest" src="./loading.jpg">
-</div>
+        <div class="text-center liveimage">
+            <img id="mjpeg_dest" src="./loading.jpg">
+        </div>
 <div class='container'>
         <div class='row'>
         <div class='col-md-4 col-sm-4 col-xs-4'>

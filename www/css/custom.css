@@ -52,7 +52,7 @@ text-align: center;
 .settings_icon{
     margin-top: 30px;
     width: 40px !important;}
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1080px){
     .liveimage, img {
         width: 80% !important;
         margin: 0 auto;
