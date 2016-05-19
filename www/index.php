@@ -178,7 +178,7 @@
 
 <html>
    <head>
-      <meta name="viewport" content="width=550, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title><?php echo CAM_STRING; ?></title>
       <link rel="stylesheet" href="css/style_minified.css" />
       <link rel="stylesheet" href="<?php echo getStyle(); ?>" />
